@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRASI BIODATA</title>
+</head>
+
+<body bgcolor="yellow">
+	<center>
+
+
+		<script language="Javascript"> 
+
+function tekan(form) 
+{ 
+
+var Namastr=(document.f10114044.Nama.value); 
+var NPMstr=(document.f10114044.NPM.value); 
+var Kelasstr=(document.f10114044.Kelas.value); 
+var Jenisstr=(document.f10114044.Jenis);
+var Tempatstr=(document.f10114044.Tempat);
+var TahunLahirstr=(document.f10114044.TahunLahir);
+var Alamatstr=(document.f10114044.Alamat);
+var Hobistr=(document.f10114044.Hobi);
+var Fakultasatr=(document.f10114044.Fakultas);
+
+
+document.f10114044.oNama.value=Namastr; 
+document.f10114044.oNPM.value=NPMstr; 
+document.f10114044.oKelas.value=Kelasstr; 
+document.f10114044.oJenis.value=Jenisstr; 
+document.f10114044.oTempat.value=Tempatstr; 
+document.f10114044.oTahunLahir.value=TahunLahirstr; 
+document.f10114044.oAlamat.value=Alamatstr;
+document.f10114044.oHobi.value=Hobistr;
+ document.f10114044.oFakultas.value=Fakultasatr;
+ 
+} 
+</script> 
+
+
+
+
+		<h2>REGISTRASI BIODATA </h2>
+	</center>
+	<br>
+	<form action="" method="post" onsubmit="INPUT_BIODATA(this)">
+		<table border="0" width="500" align="center">
+			
+		<tr>
+			<th align="left"> Masukkan Nama</th>
+			<td>:</td>
+			<td><input type="text" name="Nama" id="Nama"></td>
+		</tr>
+
+		<tr>
+			<th align="left">Masukkan NPM</th>
+			<td>:</td>
+			<td><input type="text" name="NPM" id="NPM"></td>
+		</tr>
+		<tr>
+			<th align="left">Masukkan Kelas</th>
+			<td>:</td>
+			<td><input type="text" name="Kelas" id="Kelas"></td>
+		</tr>
+		<tr>
+			<th align="left">Jenis Kelamin</th>
+			<td>:</td>
+			<td>
+					<input type="radio" name="Jenis Kelamin" value="Perempuan">Perempuan 
+					<input type="radio" name="Jenis Kelamin" value="Laki-laki">laki-laki
+				</td>
+		</tr>
+		<tr>
+			<th align="left">Tempat Lahir</th>
+			<td>:</td>
+			<td><input type="text" name="Tempat" id="Tempat"></td>
+		</tr>
+		<tr>
+			<th align="left">TahunLahitr</th>
+			<td>:</td>
+			<td><input type="date" name="tgl" id="tgl"></td>
+		</tr>
+		<tr>
+			<th align="left">Alamat</th>
+			<td>:</td>
+			<td><input type="text" name="Alamat" id="Alamat"></td>
+
+		</tr>
+		<tr>
+			<th align="left">Hobi</th>
+			<td>:</td>
+			
+			<td>
+				<select name="Hobi">
+					<option value="Pilih Hobi Anda"> ~~~Pilih Hobi Anda~~~ </option>
+					<option value="Main Game"> Main Game</option>
+					<option value="Membaca Buku"> Membaca Buku</option>
+					<option value="Melukis"> Melukis</option>
+					<option value="Lari"> Lari</option>
+					<option value="Bersepeda"> Bersepeda</option>
+					<option value="Berenang"> Berenang</option>
+					<option value="Futsal"> Futsal</option>
+					<option value="Badminton">Badminton</option>
+					
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th align="left">Fakultas</th>
+			<td>:</td>
+			<td>
+			<select name="Fakultas">
+						<option value="Pilih Fakultas">~~~Pilih Fakultas~~~</option>
+					
+						<option value="Teknik"> Teknik</option>
+						<option value="Ekonomi"> Ekonomi</option>
+						<option value="PGSD"> PGSD</option>
+						<option value="Pendidikan Kewarganegaraan"> Pendidikan Kewarganegaraan</option>
+						<option value="Hukum"> Hukum</option>
+						<option value="Sastra"> Sastra</option>
+						<option value="Pertanian"> Pertanian</option>
+			</select>
+			</td>
+		</tr>
+
+
+
+
+		<tr>
+			<td colspan="4" align="center" height="70"><input type="submit" name="" id="REGISTRASI"></td>
+		</tr>
+
+		</table>
+	</form>
+
+<script type="text/javascript">
+function tambah_semangat()
+{
+   var a=document.getElementById("div_semangat");
+   a.innerHTML+="<p>Sedang Belajar JavaScript, Semangat...!!!</p>";
+}
+
+
+</script>
+ <center>
+</head>
+ 
+<body bgcolor="yellow">
+<h1><marquee>Belajar JavaScript</marquee></h1>
+<p> Saya sedang belajar JavaScript  </p>
+Klik tombol ini untuk menambahkan kalimat baru:
+ 
+<button id="tambah" onclick="tambah_semangat()">Semangaat..!!</button>
+ 
+<div id="div_semangat"></div>
+</center>
+</body>
+
+
+
+
+</body>
+		
+</html>
